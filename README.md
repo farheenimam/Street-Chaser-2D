@@ -1,6 +1,8 @@
 # 🎮 Street Chase 2D
 
 **A colorful 2D survival chase game for children aged 5+.**
+![App Logo](Neon PlayStation Gaming Setup.png)
+
 
 Eight runners. One hunter. One simple rule: **Stand on the Safe Color.**
 
