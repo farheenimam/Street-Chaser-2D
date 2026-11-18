@@ -1,85 +1,164 @@
-Street Chase 2D
-A colorful 2D chase game for children 5+, made with Google AI Studio. Eight runners, one hunter, and one simple rule: stand on the safe color.
+# 🎮 Street Chase 2D
 
-About the game
-Street Chase 2D is a 1 hunter vs 8 runners survival chase played in the browser.
+**A colorful 2D survival chase game for children aged 5+.**
 
-For 10 seconds the whole map is black and white. Runners scatter and keep away from Hunter Vance.
-Then the colors reveal and a Safe Color is shown at the top of the screen. It shifts every 10 seconds.
-Stand on a tile that matches the Safe Color and Hunter Vance cannot chase you until the next color.
-If the hunter catches you, the run ends. Your round, score and survival time are shown, and you can jump straight back in.
-You can play as a Runner (pick 1 of 8) or as the Hunter and try to catch all 8 runners.
+Eight runners. One hunter. One simple rule: **Stand on the Safe Color.**
 
-Target audience
-Children aged 5 and above.
+Built with Google AI Studio.
 
-The game is built around one idea (match the color), uses big, bright tiles and a simple HUD, and needs very little reading. Families and parents who want a fun, quick game for young kids are the secondary audience.
+---
 
-Problem statement
-Many games for young children are either too simple to hold their attention, or too complex for them, with long text, crowded screens and complicated controls. Kids who are just starting to read and play need something they can understand in seconds, but that still feels exciting and gives them a real challenge.
+## About the Game
 
-Solution
-Street Chase 2D turns one easy rule, find the safe color, into a fast and exciting chase.
+Street Chase 2D is a 1 Hunter vs. 8 Runners survival chase game that runs directly in your browser.
 
-Instantly understandable: the map flips from grey to colorful, and the Safe Color is always shown at the top.
-Gentle challenge: a hunter is chasing you, the safe color keeps changing, and you manage stamina for sprinting and dashing.
-Plenty to explore: 8 runners with their own styles, 4 maps and 3 difficulty levels.
-Kid-friendly options: tile color letters, voices, in-game rules and a pause button.
-No install: it runs in the browser.
-Why we made this
-We wanted to make something creative, 2D, interactive, fun and challenging.
+For the first 10 seconds, the entire map appears in black and white. Runners scatter and try to stay away from Hunter Vance.
 
-We also wanted to explore a different side of Google AI Studio. Instead of building another app, we used it to create a game, to see how far a playful and interactive idea could go.
+When the colors reveal, a **Safe Color** appears at the top of the screen. It changes every 10 seconds.
 
-How to play
-Action	Control
-Move	WASD, Arrow keys or Mouse
-Sprint	Shift (uses stamina)
-Dash	Space
-Hide	E
-Pause	P
-Tip: watch the countdown at the top. When it hits zero the colors reveal, so be ready to run to the Safe Color.
+- Stand on a tile matching the Safe Color to stay protected from the hunter.
+- Move quickly before the next color change.
+- Avoid Hunter Vance and survive as long as possible.
+- If caught, your round, score, and survival time are displayed.
 
-Features
-1 hunter (Hunter Vance) vs 8 runners
-Play as a Runner or as the Hunter
-8 runners: Maya, Leo, Zara, Noah, Chloe, Sam, Ava and Kai
-4 maps: Whispering Woods, Metro Streets, Oakridge Campus and Harbor Plaza
-Easy, Normal and Hard difficulty
-Live HUD with round, runners left, score, Safe Color timer, hunter distance and stamina
-Minimap
-Tile color letters, voices, rules and pause options
-Game Over summary with Play Again and Main Menu
-Tech stack
-Vite
-TypeScript
-HTML
-Built with Google AI Studio
-Getting started
-You need Node.js installed.
+You can play as a **Runner** (choose from 8 characters) or become the **Hunter** and try to catch all 8 runners.
 
-# 1. Clone the repository
+## 🎯 Target Audience
+
+**Primary:** Children aged 5 and above.
+
+**Secondary:** Families and parents looking for a fun, quick, and engaging game for young children.
+
+The game focuses on one simple concept: matching colors. With bright tiles, a clean HUD, and minimal reading, children can understand the rules within seconds.
+
+## 💡 Problem Statement
+
+Many games designed for young children are either too simple to hold their attention or too complex for them to enjoy independently.
+
+Long instructions, crowded screens, and complicated controls can make gaming difficult for children who are just beginning to read and play.
+
+Young players need something they can understand quickly while still offering excitement, challenge, and replayability.
+
+## 🚀 Our Solution
+
+Street Chase 2D transforms one simple rule — **find the Safe Color** — into an exciting survival chase.
+
+- **Easy to Understand:** The map transitions from grayscale to colorful, with the Safe Color clearly displayed at the top.
+- **Dynamic Gameplay:** A hunter chases the runners while the Safe Color changes every 10 seconds.
+- **Stamina Management:** Sprinting and dashing require stamina, adding another layer of strategy.
+- **Character Variety:** Choose from 8 unique runners.
+- **Multiple Environments:** Explore 4 different maps.
+- **Adjustable Difficulty:** Play on Easy, Normal, or Hard.
+- **Kid-Friendly Options:** Enable tile color letters, voices, in-game rules, and pause controls.
+- **No Installation Required:** Play directly in your browser.
+
+## 🕹️ How to Play
+
+| Action | Control |
+|---|---|
+| Move | WASD / Arrow Keys / Mouse |
+| Sprint | Shift |
+| Dash | Space |
+| Hide | E |
+| Pause | P |
+
+**Tip:** Watch the countdown at the top of the screen. When it reaches zero, the colors reveal. Be ready to move to the Safe Color!
+
+## ✨ Features
+
+- 1 Hunter (Hunter Vance) vs. 8 Runners
+- Play as either a Runner or the Hunter
+- 8 playable runners:
+  - Maya
+  - Leo
+  - Zara
+  - Noah
+  - Chloe
+  - Sam
+  - Ava
+  - Kai
+- 4 unique maps:
+  - Whispering Woods
+  - Metro Streets
+  - Oakridge Campus
+  - Harbor Plaza
+- 3 difficulty levels: Easy, Normal, and Hard
+- Live HUD displaying:
+  - Current round
+  - Runners remaining
+  - Score
+  - Safe Color countdown
+  - Hunter distance
+  - Stamina
+- Interactive minimap
+- Tile color letter indicators
+- Voice options
+- In-game rules and pause menu
+- Game Over summary with Play Again and Main Menu options
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Vite | Development and build tooling |
+| TypeScript | Game logic and application code |
+| HTML | Game structure |
+| Google AI Studio | AI-assisted game development |
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your system.
+- Git installed on your system.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
 git clone https://github.com/Humaira123-afk/Street-Chaser-2D.git
 cd Street-Chaser-2D
+```
 
-# 2. Install dependencies
+**2. Install dependencies**
+
+```bash
 npm install
+```
 
-# 3. Start the dev server
+**3. Start the development server**
+
+```bash
 npm run dev
-Then open the local address shown in your terminal.
+```
 
-If the project needs environment variables, copy .env.example to .env.local and fill in the values.
+**4. Open the game**
 
-Project structure
+Open the local URL displayed in your terminal.
+
+If the project requires environment variables, copy `.env.example` to `.env.local` and configure the required values.
+
+## 📁 Project Structure
+
+```text
 Street-Chaser-2D/
-├── public/assets/aistudio/   # Static assets
-├── src/                      # Game source code
-├── index.html                # App entry point
+├── public/
+│   └── assets/
+│       └── aistudio/       # Static assets
+├── src/                    # Game source code
+├── index.html              # Application entry point
 ├── metadata.json
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
 └── .env.example
-Credits
-Made by Humaira and team for a hackathon, using Google AI Studio.
+```
+
+## 👥 Credits
+
+Made by **Humaira and Team** for a hackathon using Google AI Studio.
+
+---
+
+**Street Chase 2D — Find the color. Escape the hunter. Survive the chase!**
